@@ -1,0 +1,116 @@
+
+body{
+    background-color: white;
+    text-align: center;
+    align-items: center;
+    margin-top: 50px;
+
+}
+
+*{
+    font-family: 'Orbitron', sans-serif;
+}
+.Face{
+    height:300px;
+    width:300px;
+    margin: -110px 60px;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.17) 0 -23px 25px 0 inset, rgba(0, 0, 0, 0.15) 0 -36px 30px 0 inset, rgba(0, 0, 0, 0.1) 0 -79px 40px 0 inset, rgba(0, 0, 0, 0.06) 0 2px 1px, rgba(0, 0, 0, 0.09) 0 4px 2px, rgba(0, 0, 0, 0.09) 0 8px 4px, rgba(0, 0, 0, 0.09) 0 16px 8px, rgba(0, 0, 0, 0.09) 0 32px 16px;
+    border-color: black;
+    border-style: solid;
+    border-width: 15px;
+}
+.Face:active{
+    background-color: lightblue;
+    box-shadow: inset 0 0 30px 10px blue;
+}
+.Face:hover{
+    box-shadow: inset 0 0 30px 5px white;
+    box-snap: center;
+}
+.top-left-Face{
+    border-radius:100%;
+    background-color:darkgreen;
+}
+.top-right-Face{
+    border-radius:100%;
+    background-color:red;
+}
+.bottom-left-Face{
+    border-radius:100%;
+    background-color:yellow;
+}
+.bottom-right-Face{
+    border-radius:100%;
+    background-color:blue;
+}
+.active {
+    background-color:white;
+}
+.circle{
+    height:400px;
+    width:400px;
+    display: inline-block;
+    border-radius: 100%;
+    border-style: solid;
+    border-width: 5px;
+    background-color: grey;
+    box-shadow: rgba(0, 0, 0, 0.17) 0 -23px 25px 0 inset, rgba(0, 0, 0, 0.15) 0 -36px 30px 0 inset, rgba(0, 0, 0, 0.1) 0 -79px 40px 0 inset, rgba(0, 0, 0, 0.06) 0 2px 1px, rgba(0, 0, 0, 0.09) 0 4px 2px, rgba(0, 0, 0, 0.09) 0 8px 4px, rgba(0, 0, 0, 0.09) 0 16px 8px, rgba(0, 0, 0, 0.09) 0 32px 16px;
+}
+.info{
+    margin: 1rem;
+    padding: 2rem 2rem;
+    text-align: center;
+}
+.score{
+    color:white;
+    display: inline-block;
+    padding: 1rem 1rem;
+    vertical-align: middle;
+    background-color: black;
+    /*border-style: solid;*/
+    /*border-color: white;*/
+}
+.HiScore{
+    color:white;
+    display: inline-block;
+    padding: 1rem 1rem;
+    vertical-align: middle;
+    background-color: black;
+    /*border-style: solid;*/
+    /*border-color: white;*/
+}
+.button{
+    display: inline-block;
+    padding: 1rem 1rem;
+    vertical-align: middle;
+    color:white;
+    background-color: black;
+    cursor: pointer;
+}
+.button:hover{
+    box-shadow: inset 0 0 5px 5px white;
+    box-snap: center;
+}
+
+.time{
+    color:white;
+    display: inline-block;
+    padding: 1rem 1rem;
+    vertical-align: middle;
+    background-color: black;
+    border-style: solid;
+    border-color: white;
+}
+.power{
+    height:25px;
+    width:25px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 30px;
+    border-radius: 100%;
+    background-color: red;
+    border-style: solid;
+}

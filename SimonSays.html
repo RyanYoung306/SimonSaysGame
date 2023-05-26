@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="SimonSays.css">
+    <meta charset="UTF-8">
+    <title>Simon Says</title>
+</head>
+<body>
+    <h1 Style="color:white">Simon Says</h1>
+    <div>
+        <div>
+            <div id="TL" onclick="FaceClicked(event.currentTarget)" class="Face top-left-Face"></div>
+            <div id="TR" onclick="FaceClicked(event.currentTarget)" class="Face top-right-Face"></div>
+        </div>
+            <div>
+                <div class="circle" id="Center circle">
+                    <div class="info">
+                        <h1>Simon Says</h1>
+                        <div class="HiScore"><span id="HiScore"></span></div> <!-- high score-->
+                        <button class="button" onclick="powerClick()" id="button">START</button>
+                        <div class="score"><span id="score"></span></div><!-- current score -->
+                    </div>
+                    <div class="time"><span  id="time"></span></div>
+                    <div></div>
+                    <div class="power" id="power"></div>
+                </div>
+            </div>
+        <div>
+            <div id="BL" onclick="FaceClicked(event.currentTarget)" class="Face bottom-left-Face"></div>
+            <div id="BR" onclick="FaceClicked(event.currentTarget)" class="Face bottom-right-Face"></div>
+        </div>
+    </div>
+
+</body>
+<script src="SimonSays.js"></script>
+</html>
