@@ -1,5 +1,4 @@
 # SimonSaysGame
-Simon Says web based memeory game
+Simon Says web based memory game
 
 
-![Uploading simonSays-GIF.gif…]()
