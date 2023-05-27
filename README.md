@@ -2,4 +2,4 @@
 Simon Says web based memory game
 
 
-![](simonSays-Gif.gif)
+![](simonSays-GIF.gif)
